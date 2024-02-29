@@ -24,3 +24,6 @@ Route::get('/about', function() {
 Route::get('/profile', function() {
     return 'Hello Zaidan';
 });
+Route::get('/test', function() {
+    return 222;
+});
